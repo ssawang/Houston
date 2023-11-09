@@ -1,0 +1,19 @@
+
+
+# Data Table Reference:
+# | Field            | Description                         | Type     | Possible Values                      |
+# |------------------|-------------------------------------|----------|--------------------------------------|
+# | FLOW             | Vehicles per period                 | Float    |                                      |
+# | HOURLY_CAPACITY  | Capacity per lane per hour          | Float    | DLCAP, PKCAP, DLCAP_1                |
+# | LINKID           | ID of link                          | Integer  | LINK_ID, LINK_ID_1                   |
+# | PERIODID         | ID of period                        | Integer  |                                      |
+# | LINKLENGTH       | Link Distance in Miles              | Float    | DISTANCE, LENGTH, TOTMILES, LANEMILE, DISTANCE_1, LENGTH_1, LINK_LGTH_, LANEMILE_1≥ |
+# | MOVESROADTYPEID  | Moves road type                     | Integers | FTYPE, FTYPE_1                       |
+# | COUNTYID         | County ID (from CountyIDMapping table) that link is in | Integers |        |
+# | SPEED            | Speed limit in mph                  | Integer  | SPEED, SPD_LIMIT_, SPDLIMIT_1, SPDLMT2, SPDLIMIT, SPD_LIMIT, DLSPD, CSPD, MD6HRSPD, SPDLMT2_1, DLSPD_1 |
+# | LINKTRAVELTIME   | Congested travel time               |          | VHT_12                               |
+# | ANODE            | First Node of link                  |          | A, A_1                               |
+# | BNODE            | Second Node of link                 |          | B, B_1                               |
+# | FIPS             | NOT Found in file                   | Integer  |                                      |
+# | LANES            | Number of lanes on link             |          | LANES, BALANE                        |
+
